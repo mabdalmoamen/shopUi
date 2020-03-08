@@ -27,7 +27,6 @@ mixin AuthService on Model {
   //Sign in with email & pass
   Future<FirebaseUser> signInFun(String email, String password,
       [AuthMode mode = AuthMode.Login]) async {
-    _isLodaing = true;
     notifyListeners();
 
     if (mode == AuthMode.Login) {
