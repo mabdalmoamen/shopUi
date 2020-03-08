@@ -1,13 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:scoped_model/scoped_model.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:ui_app/models/auth_mode.dart';
 import 'package:ui_app/models/user.dart';
 
 mixin AuthService on Model {
   final FirebaseAuth _auth = FirebaseAuth.instance;
-  bool _isLodaing;
-  // Sign in anon
   User _userFromFirebase(FirebaseUser user) {
     return user != null ? User(id: user.uid) : null;
   }
