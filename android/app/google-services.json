@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "327682753748",
+    "firebase_url": "https://shop-9054e.firebaseio.com",
+    "project_id": "shop-9054e",
+    "storage_bucket": "shop-9054e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327682753748:android:f92f27465247d5e4282741",
+        "android_client_info": {
+          "package_name": "com.mostafa.shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327682753748-sa5urrf2iv1610gmf7hiv6ijrrjhg08c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiHe2fNagh46YYjGw6xcB4CfrExWJIITU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327682753748-sa5urrf2iv1610gmf7hiv6ijrrjhg08c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
